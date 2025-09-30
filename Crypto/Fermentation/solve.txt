@@ -1,0 +1,4 @@
+The name is the hint again, Fermat theorem is to be used.
+
+U use the fact that P and Q are super close, so basically P, Q is approximately equal to sqrt(N).
+So u find the closest integer to sqrt(N), and then use a loop to decrease its value by 1 and keep dividing it unless N is properly divided.

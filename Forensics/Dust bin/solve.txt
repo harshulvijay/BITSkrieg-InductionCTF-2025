@@ -1,1 +1,1 @@
-just run binwalk on the png file
+just run binwalk extract on the png file.
