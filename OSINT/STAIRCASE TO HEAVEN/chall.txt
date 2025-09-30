@@ -1,0 +1,3 @@
+Find the location of the image attached. 
+
+flag format: InductionCTF{abc.xyz.pqr}

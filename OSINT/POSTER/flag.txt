@@ -1,0 +1,5 @@
+Translate the text on the building in the background and google search to find the location on map. 
+Find the poster on google maps.
+Check what3words of the exact location.
+
+flag{memo.aged.fiction}

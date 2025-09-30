@@ -1,0 +1,10 @@
+Implement Q# operations that determines unitary transformation you have been given.
+for references to Q#: https://learn.microsoft.com/en-us/azure/quantum/qsharp-overview
+
+Solve both of the Problem Statements with a single script that should work on both the cases.
+At the end your solution won't be judged alone, but your knowledge is. So, beware of copying :)
+Use of any type of AI is permitted
+
+Use the following function for answering:-
+operation DistinguishUOneUMinusOne(u : Qubit => Unit is Adj + Ctl, psi : Qubit) : Int {
+}

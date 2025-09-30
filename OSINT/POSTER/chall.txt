@@ -1,0 +1,3 @@
+Find the location
+
+flag format : InductionCTF{abc.xyz.pqr}

@@ -1,0 +1,2 @@
+Title - URL Preview Service
+Description - Our URL preview service blocks localhost and private IPs for security. Find a way to bypass these protections and retrieve the flag.

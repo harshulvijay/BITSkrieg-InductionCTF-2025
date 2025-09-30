@@ -1,0 +1,1 @@
+just run binwalk on the png file

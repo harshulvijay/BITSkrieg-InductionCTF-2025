@@ -1,0 +1,4 @@
+enter the city name in the solution.py
+then enter (g) to guess the city
+enter the name of the decrypted city from python
+enter the flag

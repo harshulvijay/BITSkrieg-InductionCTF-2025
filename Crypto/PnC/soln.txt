@@ -1,0 +1,2 @@
+InductionCTF{f4t_bl0wf1sh}
+(Encrpyt. Key: Shark, Algo: Blowfish)

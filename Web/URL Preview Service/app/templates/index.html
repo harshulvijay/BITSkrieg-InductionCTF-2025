@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Preview Service</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      input[type="url"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        box-sizing: border-box;
+      }
+      button {
+        padding: 10px 20px;
+        background: #007cba;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #005a8b;
+      }
+      .form-group {
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>URL Preview Service</h1>
+    <p>Enter a URL to preview its content:</p>
+
+    <form action="/preview" method="get">
+      <div class="form-group">
+        <input
+          type="url"
+          name="url"
+          placeholder="https://example.com"
+          required
+        />
+      </div>
+      <button type="submit">Preview URL</button>
+    </form>
+  </body>
+</html>

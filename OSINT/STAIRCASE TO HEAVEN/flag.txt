@@ -1,0 +1,3 @@
+find the location flag is 
+
+InductionCTF{slimming.converged.drop}

@@ -1,0 +1,30 @@
+Problem Statement:
+You are tasked with calibrating a quantum interferometer by determining the phase shift it introduces to a specific quantum state.
+
+Given Inputs:
+Interferometer Element: A quantum interferometer component I that introduces either:
+I₀: No phase shift (0 phase shift)
+I_π: A π phase shift
+
+
+Probe State: A qubit prepared in state |p⟩ with the following properties:
+I₀|p⟩ = |p⟩ (state remains unchanged under zero phase shift)
+I_π|p⟩ = -|p⟩ (state acquires minus sign under π phase shift)
+
+
+Operation Properties: The interferometer element has adjoint and controlled variants available.
+
+
+Task:
+Determine the phase shift introduced by the interferometer element.
+
+
+Output Requirements:
+Return 0 if the element introduces no phase shift (I₀)
+Return 1 if the element introduces π phase shift (I_π)
+
+
+Additional Constraints:
+The final state of the probe qubit does not matter
+You may use auxiliary qubits as needed
+The solution should work with a single query to the interferometer element

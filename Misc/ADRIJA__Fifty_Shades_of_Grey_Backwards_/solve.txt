@@ -1,0 +1,7 @@
+Find the rgba value of each of the grey images, subract them from 255 ("backward") this will give you the ASCII value of the characters
+which must be translated to letters and that will give the flag.
+
+flag is: 
+
+InductionCTF{InductionCTF{f1fty_sh4d3s_0f_9r3y15}
+

@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /staff/
+Disallow: /kitchen/
+Disallow: /inventory/
+Disallow: /old_website/
+Disallow: /backup_site/
+Disallow: /temp_files/
+Disallow: /employee_portal/
+Disallow: /secret_recipes/
+Disallow: /chef_notes_private/
+Disallow: /top_secret_pizza_formula_vault/

@@ -1,0 +1,5 @@
+Name: PNG, Who’s There?
+Category: Forensics
+Description:
+Knock knock. Who’s hiding in the bytes? Each letter of the flag is tucked inside a PNG. Can you find them all and open the door to the flag?
+Hint: Not all that glitters is the first byte.

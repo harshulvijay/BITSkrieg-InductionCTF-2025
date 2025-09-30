@@ -1,0 +1,29 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# create non-root user
+RUN useradd -m -s /bin/bash ctf
+WORKDIR /home/ctf
+
+# copy challenge files
+COPY chal /home/ctf/chal
+RUN chown -R root:ctf /home/ctf/chal && \
+    chmod -R 750 /home/ctf/chal && \
+    chmod +x /home/ctf/chal/vuln || true
+
+# minimal deps
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates socat \
+    && rm -rf /var/lib/apt/lists/*
+
+# entrypoint script
+RUN printf '%s\n' "#!/bin/sh" \
+    "echo 0 > /proc/sys/kernel/randomize_va_space" \
+    "exec /home/ctf/chal/vuln" \
+    > /usr/local/bin/start.sh && chmod +x /usr/local/bin/start.sh
+ENV FLAG="InductionCTF{ENV180NM3N7_S37}"
+
+USER ctf
+ENTRYPOINT ["/usr/local/bin/start.sh"]
+

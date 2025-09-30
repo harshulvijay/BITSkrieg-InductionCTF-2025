@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      # todo: change
+      - "8050:80"
+    volumes:
+      - ./src:/var/www/html:ro

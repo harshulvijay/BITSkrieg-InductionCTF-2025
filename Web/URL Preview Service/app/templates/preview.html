@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Preview</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      .url {
+        background: #f5f5f5;
+        padding: 10px;
+        margin: 20px 0;
+        word-break: break-all;
+      }
+      .error {
+        background: #ffebee;
+        color: #c62828;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 4px;
+      }
+      .content {
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin: 20px 0;
+        background: #fafafa;
+      }
+      .back {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #007cba;
+        color: white;
+        text-decoration: none;
+      }
+      .back:hover {
+        background: #005a8b;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>URL Preview</h1>
+
+    {% if url %}
+    <div class="url"><strong>URL:</strong> {{ url }}</div>
+    {% endif %} {% if error %}
+    <div class="error">{{ error }}</div>
+    {% elif result %} {% if result.status == 'success' %}
+    <div class="content">{{ result.content | safe }}</div>
+    {% else %}
+    <div class="error">{{ result.message }}</div>
+    {% endif %} {% endif %}
+
+    <a href="/" class="back">← Back</a>
+  </body>
+</html>

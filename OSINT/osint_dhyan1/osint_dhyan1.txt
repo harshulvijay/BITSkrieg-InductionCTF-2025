@@ -1,0 +1,8 @@
+Pyotr is on a diplomatic mission to various countries across the world. However, he is also constantly being threatened by a crime syndicate. As a part of his mission to a country, he was tasked with giving a speech on culture to a school, but was abducted with his current whereabouts unknown. This is the last photo Pyotr sent to his wife. Determine:
+a. The country which Pyotr is from (NOT the country pictured)
+b. The school to which he was going to deliver the speech.
+
+Flag format: InductionCTF{country_schoolAbbr}.
+For example, if the country is Italy and the school is Bolognese Academy of Science, the flag would be InductionCTF{italy_BAS}
+
+Answer: a. Romania, b. National Gymnasium of Natural Sciences and Mathematics (NGNSM)

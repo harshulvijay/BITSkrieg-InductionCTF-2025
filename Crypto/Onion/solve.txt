@@ -1,0 +1,7 @@
+morse -> sike no flag here but I have a gift for you 566d46786148426e646d4a685545645465306431546d6466616b356d587a42684d313976646e52664d474632596d463949486c7664534268636d5567633356775a5849675932787663325568
+
+hex -> VmFxaHBndmJhUEdTe0d1Tmdfak5mXzBhM19vdnRfMGF2YmF9IHlvdSBhcmUgc3VwZXIgY2xvc2Uh
+
+base64 -> VaqhpgvbaPGS{GuNg_jNf_0a3_ovt_0avba} you are super close!
+
+rot13 -> InductionCTF{ThAt_wAs_0n3_big_0nion} 

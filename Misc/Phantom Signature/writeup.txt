@@ -1,0 +1,14 @@
+Challenge Category: Blockchain  
+CTF: Phantom Signature
+Author: Siddharth 
+Go to Solscan.io .
+  	Paste your transaction signature in the search bar.
+  	Click the button that says "Solana" or "Mainnet-Beta" (usually on the top right).
+  	Select "Devnet" from the dropdown menu. Your transaction should now appear.
+The link to the transaction 
+
+https://solscan.io/tx/2tHRnhtTvr42mu5zddG2RBQ6i8gozuAVHEiqswkmUrJJs2yy395JmA6REJ4RrxBFXHa8wHVFMTejtHF5D34SyEC3?cluster=devnet
+
+Instruction Data is in hex , convert it to txt, FLAG received.
+
+

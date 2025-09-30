@@ -1,0 +1,2 @@
+The game is an infinite runner, the text that flashes at the beginning is the score that the player has to die at, but caeser ciphered, with the score being different every time u die.
+Flag : InductionCTF{C1PH3R_D45H_1337}

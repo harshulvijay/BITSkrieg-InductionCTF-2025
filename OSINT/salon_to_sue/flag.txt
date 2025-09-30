@@ -1,0 +1,1 @@
+InductionCTF{emmy_hair_salon}

@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - FLAG=fake{flag}
+    networks:
+      - ctf-network
+
+networks:
+  ctf-network:
+    driver: bridge

@@ -1,0 +1,3 @@
+Find the exiftool of the wav - artist name is hexed - exiftool Stegman.wav
+Decode "artist" from hex - RSK_G0AT
+Use artist name for steghide extract - u get flag.txt - steghide extract - sf Stegman.wav

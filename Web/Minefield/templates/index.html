@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minefield</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <h1><span class="emoji">💣</span> Minefield</h1>
+        <div class="balance">
+          <span id="balance">$1,000</span>
+        </div>
+      </header>
+
+      <!-- Game Setup -->
+      <div class="game-setup" id="gameSetup">
+        <div class="setup-card">
+          <h2>Start Game</h2>
+          <div class="bet-input">
+            <label>Bet Amount</label>
+            <input
+              type="number"
+              id="betAmount"
+              min="1"
+              max="1000"
+              value="100"
+            />
+          </div>
+          <div class="game-info">
+            <span>5x5 Grid • 10 Mines • 1.5x Multiplier</span>
+          </div>
+          <div class="flag-goal">
+            <span>🏆 Make $1,000,000 to get the flag! 🏆</span>
+          </div>
+          <button class="btn btn-primary" id="startGameBtn">Start Game</button>
+        </div>
+      </div>
+
+      <!-- Game Board -->
+      <div
+        class="game-board-section"
+        id="gameBoardSection"
+        style="display: none"
+      >
+        <div class="game-stats">
+          <div class="stat">
+            <span class="label">Bet</span>
+            <span class="value" id="currentBet">$100</span>
+          </div>
+          <div class="stat">
+            <span class="label">Server Time</span>
+            <span class="value" id="serverTime">-</span>
+          </div>
+          <div class="stat">
+            <span class="label">Safe Tiles</span>
+            <span class="value" id="safeTilesCount">0</span>
+          </div>
+          <div class="stat">
+            <span class="label">Multiplier</span>
+            <span class="value" id="currentMultiplier">1.00x</span>
+          </div>
+          <div class="stat">
+            <span class="label">Potential</span>
+            <span class="value" id="potentialPayout">$100</span>
+          </div>
+        </div>
+
+        <div class="game-board" id="gameBoard">
+          <!-- Grid will be generated here -->
+        </div>
+
+        <div class="game-controls">
+          <button class="btn btn-success" id="cashOutBtn">Cash Out</button>
+          <button class="btn btn-secondary" id="newGameBtn">New Game</button>
+        </div>
+
+        <div class="message" id="gameMessage"></div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal" id="resultModal">
+        <div class="modal-content">
+          <h3 id="resultTitle">Game Over</h3>
+          <p id="resultMessage">You hit a mine!</p>
+          <div class="result-details" id="resultDetails"></div>
+          <button class="btn btn-primary" id="playAgainBtn">Play Again</button>
+        </div>
+      </div>
+
+      <!-- Loading -->
+      <div class="loading" id="loadingOverlay">
+        <div class="spinner"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

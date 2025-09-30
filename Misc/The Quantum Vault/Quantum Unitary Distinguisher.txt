@@ -1,0 +1,30 @@
+Problem Statement
+You are tasked with distinguishing between two possible single-qubit unitary transformations based on their action on a specific eigenstate.
+
+Given Inputs:
+Unitary Operation: A single-qubit unitary transformation that is either:
+U₁: A unitary that preserves a specific eigenstate
+U₋₁: A unitary that negates a specific eigenstate
+
+
+Eigenstate: A qubit prepared in state |ψ⟩ with the following properties:
+U₁|ψ⟩ = |ψ⟩ (eigenstate with eigenvalue +1)
+U₋₁|ψ⟩ = -|ψ⟩ (eigenstate with eigenvalue -1)
+
+
+Operation Properties: The given unitary operation has adjoint and controlled variants available.
+
+
+Task
+Determine which unitary transformation you have been given.
+
+
+Output Requirements:
+Return 0 if the given operation is U₁
+Return 1 if the given operation is U₋₁
+
+
+Additional Constraints:
+The final state of the input qubit does not matter
+You may use auxiliary qubits as needed
+The solution should work with a single query to the unknown unitary.

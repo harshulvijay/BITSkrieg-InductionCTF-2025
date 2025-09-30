@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">unveil my secrets</string>
+  <string name="strings_are_cool">strings are cool.\ncan you find the file
+    where this text is stored?</string>
+  <string name="snice">congrats, you have found the flag. (search
+    `flag` in this file)\nbut where is
+    this flag being decrypted? find part 2 and get the real flag.</string>
+  <string name="encrypted_flag_hex">3a0709050f1111001c303d2b0b045600301f471a062f1e560e5c461f1a32040456271b00061d050d66</string>
+</resources>

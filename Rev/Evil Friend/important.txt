@@ -1,0 +1,3 @@
+oh no.
+
+InductionCTF{zipp3d_it_l0ck3d_it_but_f0rg0t_to_h1de_the_k3y}

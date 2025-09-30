@@ -1,0 +1,1 @@
+InductionCTF{ssrf_1s_d4ng3r0us_wh3n_n0t_pr0t3ct3d_pr0p3rly}
